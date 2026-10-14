@@ -79,13 +79,13 @@ export default function Home() {
           <p className="hero-title">Scaling Temporal Manifold Matching for Long-Horizon World Rollout</p>
           <p className="authors">{[
             { name: "Ziyu Zhu", marks: "1,*" },
-            { name: "Zhaoxu Sun", marks: "1,*" },
-            { name: "Fan Jiang", marks: "1,*,†" },
+            { name: "Zhaoxu Sun", marks: "1,*,†" },
+            { name: "Fan Jiang", marks: "1,*,‡" },
             { name: "Mengchao Wang", marks: "1,*" },
-            { name: "Junfeng Ni", marks: "2" },
+            { name: "Junfeng Ni", marks: "1,2" },
             { name: "Ting-Bing Xu", marks: "1" },
             { name: "Zhicheng Liu", marks: "1" },
-            { name: "Mu Xu", marks: "1,‡" },
+            { name: "Mu Xu", marks: "1" },
           ].map(({ name, marks }) => <span key={name}>{name}<sup>{marks}</sup></span>)}</p>
           <p className="affiliations"><span><sup>1</sup> AMAP, Alibaba Group</span><span><sup>2</sup> Tsinghua University</span></p>
           <p className="author-notes"><span><sup>*</sup> Equal contribution</span><span><sup>†</sup> Project leader</span><span><sup>‡</sup> Corresponding author</span></p>
